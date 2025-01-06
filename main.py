@@ -319,7 +319,7 @@ def run_zara(trigger_word_active=True):
                 talk('who has designed and developed me as a AI assistant. If you have any other questions, feel free to ask!')
                 command_handled = True
             elif 'who created you' in command:
-                talk("I was created by Ayush Aryan, who designed and developed me as a personal assistant. If you have any other questions, feel free to ask!")
+                talk("I was created by Vishnu Priya, who designed and developed me as a personal assistant. If you have any other questions, feel free to ask!")
                 command_handled = True
             elif 'weather in' in command:
                 city = command.split('weather in')[1].strip()
