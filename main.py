@@ -166,9 +166,6 @@ def run_zara(trigger_word_active=True):
             ["PowerPoint", r"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PowerPoint.lnk"],
             ["Publisher", r"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Publisher.lnk"],
             ["Word", r"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Word.lnk"],
-            ["vs code", r"C:\Users\ayush\Desktop\Visual Studio Code.lnk"],
-            ["Spotify", r"C:\Users\ayush\Desktop\Spotify.lnk"],
-            ["Postman", r"C:\Users\ayush\Desktop\Postman.lnk"],
             ["Brave (Desktop)", r"C:\Users\Public\Desktop\Brave.lnk"],
             ["Microsoft Edge (Desktop)", r"C:\Users\Public\Desktop\Microsoft Edge.lnk"],
             ["Google Chrome (Desktop)", r"C:\Users\Public\Desktop\Google Chrome.lnk"]
@@ -314,7 +311,7 @@ def run_zara(trigger_word_active=True):
             elif 'what is your favourite sport' in command:
                 talk('I like cricket.')
                 command_handled = True
-            elif 'who is ayush aryan' in command:
+            elif 'who is Vishnu' in command:
                 talk('Ayush Aryan is a student who is pursuing BTech in Computer Science and Engineering.')
                 talk('who has designed and developed me as a AI assistant. If you have any other questions, feel free to ask!')
                 command_handled = True
